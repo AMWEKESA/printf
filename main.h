@@ -22,6 +22,7 @@ int (*specifier_check(const char *format))(va_list);
 int print_char(va_list args);
 int print_str(va_list args);
 int print_pcent(va_list args);
- int print_integers(va_list args);
+int print_integers(va_list args);
+void print_bin(va_list bin);
 
 #endif /* main.h */

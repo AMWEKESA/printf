@@ -21,6 +21,7 @@ int (*specifier_check(const char *format))(va_list)
 		{"%", print_pcent},
 		{"i", print_integers},
 		{"d", print_integers},
+		{"b", print_bin}'
 		{NULL, NULL}};
 
 	i = 0;
