@@ -2,13 +2,14 @@
 #define MAIN_H
 
 #include <stdarg.h>
+
 /**
-  * struct fun - structure for specifier to ptr
-  *
-  *@sp: char to be compared
-  *@fn: appropriate function
-  *
-  */
+ * struct fun - structure for specifier to ptr
+ *
+ * @sp: char to be compared
+ * @fn: appropriate function
+ *
+ */
 
 typedef struct fun
 {
